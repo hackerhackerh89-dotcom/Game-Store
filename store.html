@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #1b2838;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #171a21;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #66c0f4;
+    }
+
+    .game-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .game-card {
+      background: #2a475e;
+      border-radius: 10px;
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .game-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .game-card h3 {
+      margin: 10px 0;
+      color: #c7d5e0;
+    }
+
+    .game-card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px;
+      background: #66c0f4;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .game-card a:hover {
+      background: #4a90e2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sanjeev's Game Store</h1>
+    <p>Buy and launch games directly on Steam</p>
+  </header>
+
+  <section class="game-list">
+    <!-- Example Game Card -->
+    <div class="game-card">
+      <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ce5437442768e38eb575f205ab9397d0264017b0/header.jpg" alt="RE: 9">
+      <h3>Resident Evil Requiem</h3>
+      <!-- Steam protocol link -->
+      <a href="steam://store/3764200">Open in Steam</a>
+    </div>
+
+    <div class="game-card">
+      <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg" alt="God Of War: Ragnarök">
+      <h3>God Of War: Ragnarök</h3>
+      <a href="steam://store/2322010">Open in Steam</a>
+    </div>
+
+    <div class="game-card">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg" alt="GTA V">
+      <h3>Grand Theft Auto V</h3>
+      <a href="steam://store/271590">Open in Steam</a>
+    </div>
+
+    <div class="game-card">
+      <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg" alt="RDR 2">
+      <h3>Red Dead Redemption 2</h3>
+      <a href="steam://store/1174180">Open in Steam</a>
+    </div>
+
+        <div class="game-card">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg" alt="CS:GO">
+      <h3>Counter-Strike: Global Offensive</h3>
+      <a href="steam://store/730">Open in Steam</a>
+    </div>
+
+    <div class="game-card">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg" alt="Dota 2">
+      <h3>Dota 2</h3>
+      <a href="steam://store/570">Open in Steam</a>
+    </div>
+  </section>
+</body>
+</html>
